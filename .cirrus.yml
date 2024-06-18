@@ -1,0 +1,9 @@
+task:
+  name: Hello
+  timeout_in: 180m
+  stateful: true
+  container:
+    image: ubuntu:22.04
+
+  hello:
+    - df -h
